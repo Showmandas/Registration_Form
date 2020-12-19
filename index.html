@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"/>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="heading">
+            <h2>Registration Form</h2>
+        </div><!--/heading-->
+        <form class="form" id="form">
+             <div class="group-form">
+                 <label>Username:</label>
+                 <input type="text" name="" id="username" placeholder="Enter your fullname" autocomplete="off">
+                 <i class="fas fa-check-circle"></i>
+                 <i class="fas fa-exclamation-circle"></i>
+                 <small>Error message</small>
+             </div><!--/group-form-->
+             <div class="group-form">
+                <label>Email:</label>
+                <input type="email" name="" id="email" placeholder="Enter your email" autocomplete="off" required>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div><!--/group-form-->
+            <div class="group-form">
+                <label>Phone number:</label>
+                <input type="number" name="" id="phn" placeholder="Enter your phone number" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div><!--/group-form-->
+            <div class="group-form">
+                <label>Password:</label>
+                <input type="password" name="" id="password" placeholder="Enter your password" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div><!--/group-form-->
+            <div class="group-form">
+                <label>Confirm password:</label>
+                <input type="password" name="" id="conpass" placeholder="Confirm your password" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div><!--/group-form-->
+            <input type="submit" class="btn" value="Submit">
+        </form><!--/form-->
+    </div><!--/wrapper-->
+
+    <script src="main.js"></script>
+</body>
+</html>

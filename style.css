@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Mulish:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(116, 235, 213, 0.6)), to(rgba(159, 172, 230, 0.6)));
+  background-image: linear-gradient(to left, rgba(116, 235, 213, 0.6), rgba(159, 172, 230, 0.6));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "mulish";
+  min-height: 100vh;
+  width: 100vw;
+}
+
+body .wrapper {
+  background: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0, 12.3px, 10.4px, rga(0, 0, 0, 0.058);
+          box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0, 12.3px, 10.4px, rga(0, 0, 0, 0.058);
+  overflow: hidden;
+  width: calc(100vw - 65vw);
+  max-width: 100%;
+}
+
+body .wrapper .heading {
+  background: -webkit-gradient(linear, right top, left top, from(#74ebd5), to(#9face6));
+  background: linear-gradient(to left, #74ebd5, #9face6);
+  padding: 30px 0;
+}
+
+body .wrapper .heading h2 {
+  font-size: 24px;
+  color: #222;
+  font-family: "montserrat";
+  text-transform: uppercase;
+  text-align: center;
+}
+
+body .wrapper .form {
+  padding: 40px;
+}
+
+body .wrapper .form .group-form {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+body .wrapper .form .group-form label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+body .wrapper .form .group-form input {
+  width: 100%;
+  border: 2px solid #f0f0f0;
+  border-radius: 5px;
+  display: block;
+  font-family: "mulish";
+  font-size: 14px;
+  padding: 12px;
+}
+
+body .wrapper .form .group-form input:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+body .wrapper .form .group-form i {
+  position: absolute;
+  right: 12px;
+  top: 38px;
+  visibility: hidden;
+}
+
+body .wrapper .form .group-form .success .fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+body .wrapper .form .group-form .error .fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+body .wrapper .form .group-form small {
+  color: #e74c3c;
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+}
+
+body .wrapper .form .group-form.success input {
+  border-color: #2ecc71;
+}
+
+body .wrapper .form .group-form.error input {
+  border-color: #e74c3c;
+}
+
+body .wrapper .form .group-form.error small {
+  visibility: visible;
+}
+
+body .wrapper .form .btn {
+  background: -webkit-gradient(linear, right top, left top, from(#74ebd5), to(#9face6));
+  background: linear-gradient(to left, #74ebd5, #9face6);
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: #fff;
+  display: block;
+  font-family: "montserrat";
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px 0;
+  text-transform: uppercase;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+body .wrapper .form .btn:hover {
+  background: -webkit-gradient(linear, right top, left top, from(rgba(116, 235, 213, 0.6)), to(rgba(159, 172, 230, 0.6)));
+  background: linear-gradient(to left, rgba(116, 235, 213, 0.6), rgba(159, 172, 230, 0.6));
+}
+/*# sourceMappingURL=style.css.map */
