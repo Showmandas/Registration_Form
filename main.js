@@ -4,11 +4,15 @@ const email=document.getElementById('email');
 const phone=document.getElementById('phn');
 const pass=document.getElementById('password');
 const conpass=document.getElementById('conpass');
-
+console.log(form);
 form.addEventListener('submit',(event) => {
-    event.preventDefault();
-    validation();
+	validation();
+	event.preventDefault();
+	
+
 })
+
+
 
 const sendData = (usernameval,sRate,count) =>{
    if(sRate===count){
@@ -33,10 +37,10 @@ const sendData = (usernameval,sRate,count) =>{
 //define validation function
 const validation = () =>{
     const usernameval=username.value.trim();
-const emailval=email.value.trim();
-const phoneval=phn.value.trim();
-const passval=password.value.trim();
-const conpassval=conpass.value.trim();
+    const emailval=email.value.trim();
+    const phoneval=phn.value.trim();
+    const passval=password.value.trim();
+    const conpassval=conpass.value.trim();
 //more email validation
 const isEmail=(emailval) =>{
     var Atsym=emailval.indexOf('@');
